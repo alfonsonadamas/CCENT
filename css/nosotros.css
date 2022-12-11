@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.nosotros_nav{
+    background-color: #2B2D42;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: 150px;
+    padding-bottom: 90px;
+}
+
+.nosotros_nav a{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.nosotros_nav a img{
+    height: 120px;
+    width: auto;
+}
+
+.img img{
+    width: auto;
+    height: 400px;
+}
+
+.img{
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+    top: 150px;
+    left: 50%;
+    margin-left: -300px;
+}
+
+.text{
+    margin-top: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.text p{
+    width: 800px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.valores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    margin-bottom: 60px;
+}
+
+.valores_child{
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.valores_child h2{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.valores_child img{
+    width: 110px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+#ojo{
+    width: 125px;
+}
+
+.valores_child p{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    height: 100px;
+}
+
+
+
+/* .hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_quienes{
+    display: flex;
+    justify-content: center;
+}
+
+.hero_quienes p{
+    width: 850px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.hero h2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+} */
+
+
+

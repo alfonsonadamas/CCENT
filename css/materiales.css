@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+    background-color: white;
+}
+
+.buscar{
+    display: flex;
+    align-items: center;
+}
+
+#busca{
+    border-radius: 0 10px 10px 0;
+    border:none;
+    height: 30px;
+    width: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.busqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #668FAA;
+}
+
+.busqueda img{
+    width: 26px;
+    height: auto;
+    background-color: #D9D9D9;
+    border-radius: 0 10px 10px 0;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.busqueda img:last-child{
+    border-radius: 45%;
+    background-color: #2B2D42;
+    height: 25px;
+    width: auto;
+    padding-right: 7px;
+}
+
+.carrito{
+    position: absolute;
+    z-index: 1;
+    left: 1280px;
+}
+
+.busqueda input{
+    border: none;
+    height: 28px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.busqueda select{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    border: none;height: 24px;
+    background: #D9D9D9;
+    border-radius: 10px 0 0 10px;
+    padding: 2px;
+    height: 30px;
+}
+
+.busqueda select option {
+    background-color: white;
+    color: black;
+}
+
+
+.producto{
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.producto img{
+    width: 250px;
+}
+
+.producto_producto{
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.producto_fondo{
+    background-color: black;
+}
+
+.producto_fondo img:hover{
+    opacity: 70%;
+    
+    transition: opacity 0.5s;
+    cursor: pointer;
+    /* display: block; */
+
+}
+
+#lupa{
+    width: 26px;
+    height: auto;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.producto_descrp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    padding: 10px;
+}
+
+.producto_descrp p{
+    padding: 0;
+    margin: 0;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.producto_descrp span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Monserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.info{
+    background-color: white;
+    display: flex;
+    padding-left: 250px;
+    padding-top: 30px;
+    padding-right: 250px;
+    padding-bottom: 20px;
+}
+
+.info-inter{
+    font-family: 'Monserrat', sans-serif;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.info p{
+    text-align: justify;
+}
+
+.info img{
+    width: 400px;
+}
+
+.info-precio{
+    display: flex;
+    justify-content: center;
+    font-size:30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.info-precio input{
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.info-input{
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.boton{
+    background-color: #D90429;
+    color: white;
+    border: 0px;
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+input:invalid{
+    border:  solid #D90429 3px;
+    background-color: #d9042748;
+}
+
+
+.boton:active{
+    transform: scale(0.98);
+    background-color: #d90427b4;
+}
+
+.formulario_carrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario_carrito textarea{
+    width: 380px;
+    font-size: 15px;
+    height: 160px;
+    margin-top: 20px;
+    font-family: 'Monserrat', sans-serif;
+    resize: none;
+    text-align: justify;
+    border: none;
+}
+
+#titulo{
+    font-size: 32px;
+    font-family: 'Monserrat', sans-serif;
+    text-align: center;
+    border: none;
+}
+
+#precio{
+    border: none;
+    font-size: 28px;
+    width: 90px;
+}
+
+.añadir_cuenta{
+    padding: 50px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 18px;
+    margin-top: 30px;
+    box-shadow: 9px 6px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+.formulario_cuenta{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario_cuenta input{
+    width:400px;
+    margin: 10px 0;
+    font-family: 'Monserrat', sans-serif;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 18px;
+}
+
+#usuario{
+    width: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.formulario_cuenta label{
+    width: fit-content;
+    font-family: 'Monserrat', sans-serif;
+}
+
+#guardar{
+    width: fit-content;
+    padding: 5px 10px;
+    font-family: 'Monserrat', sans-serif;
+    background-color: #D90429;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#crear_txt{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.input_cuenta{
+    margin: 0 50px;
+}
+
+a{
+    width: fit-content;
+    font-family: 'Monserrat', sans-serif;
+}
+p{
+    font-family: 'Monserrat', sans-serif;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Monserrat', sans-serif;
+    text-transform: uppercase;
+    color: #3b3b3b;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    background-color: #D90429;
+    margin: 0;
+}
+
+.body_form{
+    background-color: #b9b9b9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error{
+    color: red;
+}
+
+.carrito_carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 40px;
+    
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #d8d8d8;
+    margin: 0;
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'Monserrat', sans-serif;
+}
+
+td{
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.bienvenida{
+    text-align: center;
+    margin-top: 60px;
+}
+
+td input{
+    background-color: #D90429;
+    border-radius: 25%;
+    text-align: center;
+    border: none;
+    color: white;
+
+    cursor: pointer;
+}
+
+.enviar input{
+    width: fit-content;
+    padding: 5px 10px;
+    font-family: 'Monserrat', sans-serif;
+    background-color: #D90429;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.confirmacion{
+    color: black;
+    background-color: rgb(155, 253, 155);
+    font-family: 'Monserrat', sans-serif;
+    padding: 5px;
+}
+
+.vacio{
+    font-size: 25px;
+    color: #8b8b8b;
+}
+
+#telefono::-webkit-inner-spin-button { 
+    -webkit-appearance: none; 
+  }
+

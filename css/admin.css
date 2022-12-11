@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.admin{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav a{
+    margin: 0 10px;
+    font-size: 26px;
+}
+
+.nav p{
+    font-size: 26px;
+}
+
+#ccent{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #FFF;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.perfil p{
+    padding: 0 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.sidebar{
+    padding: 0 30px;
+    background-color: #2B2D42;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#perfil{
+    text-align: center;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+
+.sidebar a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+
+}
+
+.sidebar a:hover{
+    opacity: 70%;
+    
+}
+
+.inicio_galeria{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.admin_editar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.admin_editar_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.admin_editar p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin_editar img{
+    width: 300px;
+}
+
+#editar{
+    background-color: rgb(216, 216, 0);
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+#eliminar{
+    background-color: red;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.editar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.editar img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.editar input{
+    margin: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 350px;
+}
+
+.añadir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.añadir a{
+    background-color: green;
+    margin-top: 30px;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+.añadir H2{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.no_añadir a{
+    opacity: 70%;
+    cursor: default;
+}
+
+.inicio{
+    margin: 0 400px;
+}
+
+.inicio h2{
+    font-family: 'Montserrat', sans-serif ;
+}
+
+.pedidos_titulo{
+    font-family: 'Montserrat', sans-serif ;
+}
+
+.pedido{
+    background-color: #cccccc;
+    width: 900px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+}
+
+.nombre{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.materiales{
+    margin-left: 60px;
+    
+}
+
+.materiales_nombre{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.materiales p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.total{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.botones{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.botones form{
+    margin: 0 10px;
+
+}
+
+.botones form input{
+    border-radius: 5px;
+    border: none;
+}
+
+.acep{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.den{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+

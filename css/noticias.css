@@ -1,0 +1,148 @@
+.noticia{
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+}
+
+
+
+.añadir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.añadirNoticia{
+    display: flex;
+    justify-content: flex;
+    margin-right: 30px;
+    margin-left: 350px;
+    flex-direction: column;
+}
+
+.añadirNoticia a{
+    justify-content: flex-end;
+    background-color: green;
+    width: 60px;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+}
+
+/* .noticiaUsuario{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+} */
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.formulario form{
+    margin-top: 20px;
+}
+
+.tipo{
+    display: flex;
+    flex-direction: row;
+}
+
+textarea{
+    resize: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+#nimag{
+    width: 550px;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#categN{
+    margin: 30px;
+}
+
+#categN label{
+        
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bodyUS{
+    background-color: #e9e8e8;
+}
+.formNoticia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.noticiaUS{
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+
+    display: flex;
+    flex-direction: column;  
+    width:500px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.info{
+    margin: 0 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info p{
+    margin-top: 10px;
+}
+
+.Categoria{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Titulo{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Descripcion{
+    width: auto;
+    font-size: 18px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.Fecha{
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+

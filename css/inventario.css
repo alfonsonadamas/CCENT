@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.categoria{
+    margin: 0 400px;
+}
+
+.categorias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -10px 0;
+}
+
+.categoria_listado{
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria_editar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.ref_categoria{
+    width: 500px;
+    margin: 0;
+}
+
+.categoria h2{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.categoria_listado a{
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.formulario_categoria{
+    display: none;
+    margin-top: 30px;
+    width: 900px;
+    flex-wrap: wrap;
+}
+
+.formulario_edit{
+    display: flex;
+}
+
+.formulario_categoria label{
+    margin-right: 60px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.formulario_categoria input{
+    width: 500px;
+    background-color: rgb(185, 182, 182);
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border: none;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.formulario_categoria input:last-of-type{
+    width: 80px;
+    margin-left: 690px;
+    margin-top: 30px;
+    background-color: #D90429;
+    cursor: pointer;
+    border-radius: 18px;
+    padding: 10px;
+    color: white;
+}
+
+.añadir button{
+    background-color: green;
+    margin-top: 30px;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.productos{
+    margin-left: 400px;
+}
+
+.productos h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.producto_listado{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+
+}
+
+.añadir_producto{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.añadir_producto a{
+    background-color: green;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.form_añadir{
+    margin-left: 400px;
+}
+
+.form_añadir h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_input{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.form_input input{
+    width: 550px;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form_input textarea{
+    resize: none;
+    width: 550px;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form_input select{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form_input label{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#submit{
+    background-color: #1a940a;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#number{
+    width: 100px;
+}
+
+.error{
+    background-color: rgb(243, 149, 149);
+    color: #D90429;
+    padding: 10px;
+    width: 800px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.eliminar{
+    display: flex;
+    width: 100px;
+
+}
+
+#boton_eliminar{
+    background-color: #D90429;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
